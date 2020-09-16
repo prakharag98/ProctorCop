@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone_Login"
+    android:background="@drawable/womencrime">
+
+
+<RelativeLayout
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_corners"
+    android:layout_marginTop="190dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+    android:layout_centerHorizontal="true">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/phone_text"
+        android:backgroundTint="#000000"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:hint="Enter Your Number"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingTop="6dp"
+        android:inputType="phone"
+        android:maxLength="10"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbutton"
+        android:layout_below="@+id/phone_text"
+        android:layout_centerHorizontal="true"
+        android:text="Continue"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:padding="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/continue_button"/>
+</RelativeLayout>
+
+</RelativeLayout>

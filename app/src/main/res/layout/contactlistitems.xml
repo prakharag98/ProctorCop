@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/phone_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_local_phone_black_24dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/contacts"
+        tools:text="Riya Agarwal"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:maxLines="1"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>

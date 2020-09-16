@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E04759</color>
+    <color name="PrimaryDark">#E47171</color>
+    <color name="colorAccent">#CA2323</color>
+    <color name="pdark">#000000</color>
+    <color name="grd">#CA2323</color>
+    <color name="circle1">#7CE44D6A</color>
+    <color name="circle2">#4DCF4242</color>
+    <color name="change_background">#AD3F4C</color>
+    <color name="white">#ffffff</color>
+</resources>

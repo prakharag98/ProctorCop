@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/womencrime">
+
+
+
+       <RelativeLayout
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:background="@drawable/layout_corners"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="17dp"
+           android:layout_marginRight="17dp">
+
+            <EditText
+                android:drawableLeft="@drawable/email"
+                android:id="@+id/login_email_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintemail"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="50dp"/>
+
+            <EditText
+                android:id="@+id/login_password_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_email_view"
+                android:hint="@string/hintpassword"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:drawableLeft="@drawable/password"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/login_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_password_view"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/loginbutton"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:text="@string/loginbutton"
+                android:textColor="@android:color/background_light"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/signinusing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_button_view"
+                android:text="or Sign in using"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"/>
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/googlesignin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/signinusing"
+                android:layout_marginLeft="60dp">
+            </com.google.android.gms.common.SignInButton>
+
+           <Button
+               android:id="@+id/phone_verify"
+               android:layout_width="120dp"
+               android:layout_below="@+id/signinusing"
+               android:layout_height="wrap_content"
+               android:background="@drawable/loginbutton"
+               android:layout_toRightOf="@+id/googlesignin"
+               android:text="Phone"
+               android:layout_marginRight="30dp"
+               android:layout_marginLeft="10dp"
+               android:textColor="#FFF"/>
+
+            <TextView
+                android:id="@+id/Need_New_account_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neednewaccount"
+                android:layout_below="@+id/googlesignin"
+                android:textStyle="normal"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark"
+                android:layout_centerHorizontal="true"
+                />
+       </RelativeLayout>
+</RelativeLayout>

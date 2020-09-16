@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="Destination"
+            android:iconTint="#D85449">
+        </item>
+        <item
+            android:id="@+id/item2"
+            android:title="Number plate recognition"
+            android:iconTint="#D85449"></item>
+        <item
+            android:id="@+id/item3"
+            android:title="Settings "
+            android:iconTint="#D85449"></item>
+
+    </group>
+    <item  android:title="App">
+        <menu>
+            <item
+                android:id="@+id/item4"
+                android:title="Sign Out"
+                android:iconTint="#D85449"></item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Emergency</string>
+    <string name="hintemail">Email</string>
+    <string name="hintpassword">Password</string>
+    <string name="loginbutton">Sign In</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="neednewaccount">Need new Account ?</string>
+    <string name="AccountCreatd">Already Have Account?</string>
+    <string name="Welcome">Welcome to Hospiton</string>
+
+
+    <!-- user profile detalis -->
+
+    <string name="namehint">Name</string>
+    <string name="user_phone_hint">Your Contact Number</string>
+    <string name="numberofclosedones1">Contact of Closed One 1</string>
+    <string name="numberofclosedones2">Contact of Closed One 2</string>
+    <string name="numberofclosedones3">Contact of Closed One 3</string>
+    <string name="button_save">Save</string>
+
+
+    <!--Firebase RealTime Database-->
+    <string name="Users">Users</string>
+    <string name="name">name</string>
+    <string name="contact">User_Contact</string>
+    <string name="alias_contact1">alias contact 1</string>
+    <string name="alias_contact2">alias contact 2</string>
+    <string name="alias_contact3">alias contact 3</string>
+    <string name="DownloadableUrl">image</string>
+    <string name="ProfileImages">Profile Images</string>
+    <string name="place_node">Places</string>
+    <string name="User_Current">Current</string>
+    <string name="User_Destination">Destination</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="going_time">Date</string>
+
+
+    <!--MainActivity-->
+
+    <string name="PanicButton">SOS</string>
+    <string name="set_destination">Set Destination</string>
+
+    <!--Places API KEY-->
+
+    <string name="places_api_key">AIzaSyCOtEIuYgncytKRSVBmewS8AIzsMLgNpHg</string>
+    <string name="drivingtext">Search Destination Above</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/destination"
+        android:title="Destination"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/Find_Friends"
+        android:title="Find Friends"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/contacts"
+        android:title="Contacts"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/Requests"
+        android:title="Requests"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/camera"
+        android:title="Number plate"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/signout"
+        android:title="SignOut"
+        app:showAsAction="never">
+    </item>
+
+
+</menu>

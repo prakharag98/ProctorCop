@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone_Login"
+    android:background="@drawable/womencrime">
+
+
+   <RelativeLayout
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:background="@drawable/layout_corners"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="190dp"
+       android:layout_marginLeft="17dp"
+       android:layout_marginRight="17dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/OTP_text"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:hint="Enter OTP To Verify..."
+        android:layout_marginTop="70dp"
+        android:paddingTop="6dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbutton"
+        android:layout_below="@+id/OTP_text"
+        android:layout_centerHorizontal="true"
+        android:text="Verify"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:padding="17dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/verify_button"/>
+
+   <ProgressBar
+       android:id="@+id/verify_progress_bar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="@style/ProgressBarStyle"
+       android:layout_below="@+id/verify_button"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+       android:visibility="invisible"
+       />
+   </RelativeLayout>
+
+</RelativeLayout>

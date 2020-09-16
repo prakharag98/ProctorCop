@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1030735483120",
+    "firebase_url": "https://hospiton-a68eb.firebaseio.com",
+    "project_id": "hospiton-a68eb",
+    "storage_bucket": "hospiton-a68eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030735483120:android:ceff843f758e1d02",
+        "android_client_info": {
+          "package_name": "com.example.hospiton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030735483120-2pn4lpj5iur7r93m2d1pn29opu63cuim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospiton",
+            "certificate_hash": "9db4b452178c1bba443f243784ab04155a600480"
+          }
+        },
+        {
+          "client_id": "1030735483120-4e01h8qh9dvj5f6cvs531p949i2bd87a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hospiton",
+            "certificate_hash": "c900cba5cec7bad3af0d7a906f27f5b82d535c58"
+          }
+        },
+        {
+          "client_id": "1030735483120-t18n23sjqao70duarvp0s9hl65joptla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh77gVth-lAwcza2AMeQbqUUIvQgJoJZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030735483120-t18n23sjqao70duarvp0s9hl65joptla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

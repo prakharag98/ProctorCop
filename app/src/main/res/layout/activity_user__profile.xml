@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/design"
+                android:padding="50dp"
+                android:background="@color/colorPrimary">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/profile_image"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorPrimary"
+                android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:layout_below="@id/design"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                android:hint="@string/namehint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_name"
+                android:id="@+id/user_contact"
+                android:inputType="phone"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_local_phone_black"
+                android:hint="@string/user_phone_hint"/>
+
+            <EditText
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_contact"
+                android:id="@+id/user_closed1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:hint="@string/numberofclosedones1"/>
+
+            <EditText
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_closed1"
+                android:id="@+id/user_closed2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:hint="@string/numberofclosedones2"/>
+
+            <EditText
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_closed2"
+                android:id="@+id/user_closed3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:hint="@string/numberofclosedones3"/>
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_closed3"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:text="@string/button_save"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
